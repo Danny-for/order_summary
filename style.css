@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+
+}
+
+body{
+    background-image:url(img/pattern-background-desktop.svg);
+    background-repeat: no-repeat; 
+    background-color: hsl(225, 100%, 94%);
+    height: 100%;
+    
+}
+
+.container{
+    margin: 30px 30px 10px 30px;
+    display: grid;
+    place-items: center;
+}
+
+.container__img{
+    border-radius: 20px 20px 0 0;
+    width: 25rem;
+}
+
+.container__titles{
+    background-color:white;
+    width: 25rem;
+    height: 22rem;
+    border-radius:0 0 20px 20px ;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0 5px;
+    font-weight: 900;
+    font-size: 25px;
+    color:  hsl(223, 47%, 23%);
+}
+
+.container__p{
+    text-align: center;
+    line-height: 1.5;
+    font-size: large;
+    color:hsl(224, 23%, 55%) ;
+    margin: 0;
+}
+
+.container__plans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsl(225, 100%, 98%);
+    width: 20rem;
+    margin: 20px 10px 10px 30px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.container__plans--p{
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.container__buttons{
+   display: flex;
+   flex-direction:column ;
+   align-items: center;
+}
+
+.container__plans--title{
+    margin: 16px 0 0 0;
+    color:hsl(223, 47%, 23%);
+    font-weight: bold;
+}
+
+strong{
+    color:hsl(224, 23%, 55%);
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.container__plans--links{
+    font-size: 14px;
+}
+
+.link{
+    text-decoration: none;
+    background-color:hsl(245, 75%, 52%) ;
+    color:hsl(225, 100%, 98%);
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px  66px 8px 66px;
+}
+
+.link:hover{
+    transition: 0.1s;
+    opacity:0.01s;
+    background-color:hsl(224, 23%, 55%);
+}
+
+.link__cancel{
+    text-decoration: none;
+    margin: 20px 0 20px ;
+    color:hsl(224, 23%, 55%);
+}
+
+.attribution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0 0 0;
+    color: hsl(224, 23%, 55%);
+}
+
+.attribution_link{
+    color: hsl(245, 75%, 52%);
+    text-decoration: none;
+    margin: 0 0 0 3px;
+}
+
+.attribution_link:hover{
+    font-weight: bold;
+}
