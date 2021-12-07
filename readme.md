@@ -1,7 +1,7 @@
 ## Challenge Frontend mentor | Order Summary 
 
   Heyy pessoal !!  
-  Está é a minha solução do desafio do Frontend mentor , e minha primeira experiência me gerou bastantes aprendizados .Ele desenvolvido apenas com html e css .
+  Está é a minha solução do desafio do Frontend mentor , e minha primeira experiência me gerou bastantes aprendizados .Ele  foi desenvolvido apenas com html e css .
  
 ## Colors
 Colores utilizadas no desenvolvimento do cartão (disponibilizada) :
